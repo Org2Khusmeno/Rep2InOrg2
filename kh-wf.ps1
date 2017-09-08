@@ -1,7 +1,7 @@
 workflow kh-wf
 {
       param (
-        #Azure Login Credentials
+        #Azure Login Credentials KH
         [Parameter(Mandatory=$false)]
         [String]$AzureLoginCredentials = 'CustomerPortalAdminAccount',
         
